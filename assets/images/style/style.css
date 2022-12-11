@@ -1,0 +1,219 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.header {
+background-image: url(/assets/images/empty-floor-front-modern-building\ 1.png);
+background-repeat: no-repeat; 
+width: 100%;
+padding-bottom: 200px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.menu {
+    font-family: 'Inter', Times, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+word-spacing: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.text {
+    padding: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.box_one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 10px;
+}
+.box_one_h1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 100%;
+padding-left:  190px;
+color: #FFFFFF;
+}
+.box_one_text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #FFFFFF;
+padding-left:  190px;
+padding-top: 30px;
+}
+.box_one_button{
+    padding-left:  190px;
+padding-top: 30px;
+}
+.button {
+    width: 269px;
+height: 59px;
+left: 200px;
+top: 579px;
+background: #FFFFFF;
+cursor: pointer;
+border: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+color: #282828;
+}
+.button:hover {
+    box-shadow: 8px 19px 24px 11px rgba(241, 255, 122, 0.2);
+}
+.section_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_one_about_project{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+margin: 50px;
+}
+.h2 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 110%;
+color: #282828;
+}
+.section_one_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #282828;
+    opacity: 0.8; 
+}
+.section_one_surroundings {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.section_one_style {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.footer {
+    background-color: #282828;
+
+}
+
+.footer_section_one {
+    padding: 10px;
+
+}
+.box_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer_reg { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.type {
+    background:transparent;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #909090;
+border: none;
+border-bottom: 1px solid #909090;
+width: 600px
+}
+.footer_text {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+word-spacing: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+@media screen and (max-width: 640px)
+{
+    .footer {
+        display: none;
+    }
+    .section_one {
+        display: flex;
+        flex-direction: column;
+    }
+    .section_one_about_project {
+        display: flex;
+        flex-direction: column;
+    }
+    .section_one_surroundings {
+            display: flex;
+            flex-direction: column;
+    }
+    .section_one_style {
+        display: flex;
+            flex-direction: column;
+    }
+    .menu {
+        display: none;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-bottom: 0px;
+    }
+    .navigation {
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .box_one_h1 {
+        padding-left: 0px;
+    }
+    .box_one_text {
+        padding-left: 0px;
+    }
+    .box_one_button {
+        padding-left: 0px;
+    }
+}
