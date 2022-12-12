@@ -3,6 +3,7 @@
     display: flex;
     justify-content:center;
     flex-direction: column;
+    background-size: cover;
 }
 
 .header {
@@ -10,6 +11,7 @@ background-image: url(/assets/images/empty-floor-front-modern-building\ 1.png);
 background-repeat: no-repeat; 
 width: 100%;
 padding-bottom: 200px;
+background-size: 100% 100%
 }
 .navigation {
     display: flex;
@@ -188,7 +190,8 @@ align-items: center;
     }
     .section_one_surroundings {
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
+            
     }
     .section_one_style {
         display: flex;
@@ -202,6 +205,7 @@ align-items: center;
         flex-direction: column;
         justify-content: flex-start;
         padding-bottom: 0px;
+        background-size: auto;
     }
     .navigation {
         padding-left: 0px;
